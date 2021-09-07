@@ -1,5 +1,5 @@
 * {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -9,12 +9,6 @@
 body {
   text-align: center;
   background-color: #19a2ae;
-  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-  background-position: top left, bottom right;
-  background-repeat: no-repeat, no-repeat;
-  background-position-y: -50vh, 50vh;
-  background-position-x: -10rem, 50vw;
-  background-size: contain, contain;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,9 +21,30 @@ body {
           justify-content: center;
   height: 100vh;
   padding: 1.25rem;
+  position: relative;
+  overflow: hidden;
 }
 
-h1, h2 {
+.img1,
+.img2 {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: auto;
+}
+
+.img1 {
+  top: -50%;
+  right: 50%;
+}
+
+.img2 {
+  bottom: -50%;
+  left: 50%;
+}
+
+h1,
+h2 {
   font-size: 18px;
 }
 
@@ -85,7 +100,7 @@ main {
 .name span {
   font-weight: 400;
   color: #6a6f81;
-  margin: 0 .2rem;
+  margin: 0 0.2rem;
 }
 
 .stats {
@@ -100,14 +115,15 @@ main {
 }
 
 .stats__item p {
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-weight: 400;
   color: #6a6f81;
   letter-spacing: 1px;
 }
 
-footer, footer a {
-  font-size: .7rem;
+footer,
+footer a {
+  font-size: 0.7rem;
   color: #2d3248;
 }
 /*# sourceMappingURL=styles.css.map */
