@@ -23,7 +23,7 @@ Replicate static designs using any means you choose. I used flexbox for this exe
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3column-preview-card-flexbox-mobile-first-IdAYygqTH)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/profile-card-flexbox-B93FC___z)
 - Live Site URL: [Live Site](https://infallible-austin-7ff7da.netlify.app/)
 
 ### Built with
